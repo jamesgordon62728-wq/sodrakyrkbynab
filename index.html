@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Södra Kyrkbyn AB – Home</title>
+  <meta name="description" content="Södra Kyrkbyn AB – A professional company based in Göteborg, Sweden. Gamla Lundbygatan 17, 418 75 Göteborg.">
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<header>
+  <div class="header-inner">
+    <a class="logo-mark" href="index.html">
+      <div class="logo-icon">SK</div>
+      <div class="logo-text">
+        <span class="logo-name">Södra Kyrkbyn AB</span>
+        <span class="logo-sub">Göteborg, Sweden</span>
+      </div>
+    </a>
+    <nav>
+      <a href="index.html"   data-en="Home"    data-sv="Hem">Home</a>
+      <a href="About.html"   data-en="About"   data-sv="Om oss" class="nav-hide-sm">About</a>
+      <a href="Contact.html" data-en="Contact" data-sv="Kontakt">Contact</a>
+      <div class="lang-switch">
+        <div class="lang-btn" id="lang-en" onclick="setLang('en')">EN</div>
+        <div class="lang-btn" id="lang-sv" onclick="setLang('sv')">SV</div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-badge" data-en="Established in Göteborg" data-sv="Etablerat i Göteborg">Established in Göteborg</div>
+  <h1 data-en="Södra Kyrkbyn AB" data-sv="Södra Kyrkbyn AB">Södra Kyrkbyn AB</h1>
+  <p data-en="A trusted Swedish company based in Göteborg, committed to delivering professional services with integrity and reliability."
+     data-sv="Ett pålitligt svenskt företag baserat i Göteborg, engagerat för att leverera professionella tjänster med integritet och tillförlitlighet.">
+    A trusted Swedish company based in Göteborg, committed to delivering professional services with integrity and reliability.
+  </p>
+  <a class="hero-cta" href="Contact.html" data-en="Get in Touch →" data-sv="Kontakta oss →">Get in Touch →</a>
+  <div class="hero-divider"></div>
+</section>
+
+<!-- ══ STATS BAR ══ -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat">
+      <div class="stat-num">SE</div>
+      <div class="stat-label" data-en="Sweden" data-sv="Sverige">Sweden</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">GTB</div>
+      <div class="stat-label" data-en="Göteborg" data-sv="Göteborg">Göteborg</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">AB</div>
+      <div class="stat-label" data-en="Aktiebolag" data-sv="Aktiebolag">Aktiebolag</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ FEATURE CARDS ══ -->
+<div class="section">
+  <div class="section-tag" data-en="Why Choose Us" data-sv="Varför välja oss">Why Choose Us</div>
+  <h2 class="section-title" data-en="Built on Trust &amp; Professionalism" data-sv="Byggt på förtroende &amp; professionalism">Built on Trust &amp; Professionalism</h2>
+  <p class="section-lead"
+     data-en="Södra Kyrkbyn AB operates with transparency and dedication to quality across all our business activities."
+     data-sv="Södra Kyrkbyn AB verkar med transparens och engagemang för kvalitet i all vår affärsverksamhet.">
+    Södra Kyrkbyn AB operates with transparency and dedication to quality across all our business activities.
+  </p>
+  <div class="cards">
+    <div class="card">
+      <div class="card-icon">🏢</div>
+      <h3 data-en="Registered Company" data-sv="Registrerat bolag">Registered Company</h3>
+      <p data-en="Officially registered in Sweden as an Aktiebolag (AB), operating in full compliance with Swedish corporate regulations."
+         data-sv="Officiellt registrerat i Sverige som Aktiebolag (AB), verksamt i full överensstämmelse med svenska bolagsregler.">
+        Officially registered in Sweden as an Aktiebolag (AB), operating in full compliance with Swedish corporate regulations.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-icon">📍</div>
+      <h3 data-en="Based in Göteborg" data-sv="Baserat i Göteborg">Based in Göteborg</h3>
+      <p data-en="Located at Gamla Lundbygatan 17, 418 75 Göteborg – situated in one of Sweden's most dynamic business regions."
+         data-sv="Beläget på Gamla Lundbygatan 17, 418 75 Göteborg – i en av Sveriges mest dynamiska affärsregioner.">
+        Located at Gamla Lundbygatan 17, 418 75 Göteborg – situated in one of Sweden's most dynamic business regions.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🤝</div>
+      <h3 data-en="Professional Integrity" data-sv="Professionell integritet">Professional Integrity</h3>
+      <p data-en="We uphold the highest standards of professional conduct, ensuring reliability and accountability in everything we do."
+         data-sv="Vi upprätthåller de högsta standarderna för professionellt uppförande, och säkerställer tillförlitlighet och ansvarsskyldighet.">
+        We uphold the highest standards of professional conduct, ensuring reliability and accountability in everything we do.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-top">
+
+    <!-- Column 1: Brand & Address -->
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <div class="footer-logo-icon">SK</div>
+        <div>
+          <div class="footer-company-name">Södra Kyrkbyn AB</div>
+          <div class="footer-company-sub">Göteborg, Sweden</div>
+        </div>
+      </div>
+      <div class="footer-col-title" data-en="Company Address" data-sv="Företagsadress">Company Address</div>
+      <div class="footer-address-block">
+        <p>
+          Gamla Lundbygatan 17<br>
+          418 75 Göteborg<br>
+          <span data-en="Sweden" data-sv="Sverige">Sweden</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Column 2: Contact Information -->
+    <div class="footer-contact">
+      <div class="footer-col-title" data-en="Contact Information" data-sv="Kontaktinformation">Contact Information</div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">📧</span>
+        <div>
+          <small data-en="Email" data-sv="E-post">Email</small>
+          <a href="mailto:info@kyrkbynm.online">info@kyrkbynm.online</a>
+        </div>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">📞</span>
+        <div>
+          <small data-en="Phone" data-sv="Telefon">Phone</small>
+          <a href="tel:+447311145369">+44 07311 145369</a>
+        </div>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">🕐</span>
+        <div>
+          <small data-en="Hours" data-sv="Öppettider">Hours</small>
+          <span data-en="Mon–Fri: 09:00–17:00" data-sv="Mån–Fre: 09:00–17:00">Mon–Fri: 09:00–17:00</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Column 3: Navigation Links -->
+    <div class="footer-links-col">
+      <div class="footer-col-title" data-en="Quick Links" data-sv="Snabblänkar">Quick Links</div>
+      <ul class="footer-nav-links">
+        <li><a href="index.html"   data-en="Home"           data-sv="Hem">Home</a></li>
+        <li><a href="About.html"   data-en="About"          data-sv="Om oss">About</a></li>
+        <li><a href="Contact.html" data-en="Contact"        data-sv="Kontakt">Contact</a></li>
+        <li><a href="Privacy.html" data-en="Privacy Policy" data-sv="Integritetspolicy">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">
+      &copy; <span id="year"></span> Södra Kyrkbyn AB.
+      <span data-en="All rights reserved." data-sv="Alla rättigheter förbehållna.">All rights reserved.</span>
+    </span>
+    <span class="footer-org" data-en="Registered Aktiebolag · Göteborg, Sweden" data-sv="Registrerat Aktiebolag · Göteborg, Sverige">Registered Aktiebolag · Göteborg, Sweden</span>
+  </div>
+</footer>
+
+<script src="javascript.js"></script>
+</body>
+</html>
